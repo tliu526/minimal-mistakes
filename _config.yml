@@ -84,8 +84,8 @@ analytics:
 # Site Author
 author:
   name             : "Tony Liu"
-  avatar           : "/assets/images/headshot.jpg"
-  bio              : "Software developer at IBM Watson Health. "
+  avatar           : "/assets/images/headshot_sq.jpg"
+  bio              : #"Software developer at IBM Watson Health. I dabble in all things CS."
   location         : "Boston, MA"
   email            : "tliu0526@gmail.com"
   uri              :
@@ -251,6 +251,14 @@ defaults:
       comments: false
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # atom:
 #   buildCommand:

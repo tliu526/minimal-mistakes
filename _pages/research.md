@@ -1,12 +1,6 @@
 ---
 title: Research
 permalink: /research/
-scope:
-    path: ""
-    type: pages
-values:
-    layout: single
-    author_profile: true
 ---
 
 ### Reconsidering Dynamic Systems in Light of Irregularity
