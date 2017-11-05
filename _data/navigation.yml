@@ -6,6 +6,8 @@ main:
     url: /projects/
   - title: "Notes"
     url: /notes/
+  - title: "CV"
+    url: /pdfs/Tong_Liu_CV.pdf
   - title: "About"
     url: /about/
   # - title: "Sample Collections"
