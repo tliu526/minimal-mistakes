@@ -242,6 +242,13 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
+  notes:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -264,6 +271,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: false
 
   # _projects
   - scope:
@@ -272,7 +280,22 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: false
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      show_date: false
 
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      show_date: false
 # atom:
 #   buildCommand:
 #     - bash -c "bundle exec jekyll"

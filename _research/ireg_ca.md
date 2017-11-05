@@ -1,0 +1,15 @@
+---
+title: Spatially Irregular Cellular Automata
+excerpt: "My undergraduate honors thesis, an investigation of
+biologically inspired spatially irregular automata. Accepted to the Conference
+of Complex Systems 2017."
+# link: TODO
+date: 2016-06-01
+---
+This work was my Williams College computer science honors thesis, advised by
+Duane Bailey. We investigated biologically inspired spatially irregular cellular
+automata to determine the conditions of emergent computation and graceful degradation.
+
+My full thesis can be viewed and downloaded [here](https://unbound.williams.edu/theses/islandora/object/studenttheses%3A79).
+
+A draft of our work presented at the Conference of Complex Systems 2017 can be found [here]({{site.baseurl}}/pdfs/ireg-paper-draft.pdf).
