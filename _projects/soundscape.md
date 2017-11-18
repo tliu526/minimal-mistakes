@@ -1,6 +1,7 @@
 ---
 title: Machinis Ludo Game Jam 2015
 excerpt: This is the excerpt describing Soundscape.
+published: false
 # link: TODO
 ---
 A fun coding challenge I participated in January 2015.

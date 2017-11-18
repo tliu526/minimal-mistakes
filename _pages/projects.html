@@ -5,8 +5,16 @@ permalink: /projects/
 ---
 {% include base_path %}
 
+
+{% assign sorted = site.projects | sort: 'date' | reverse %}
+{% for post in sorted %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<!--
 <div class="grid__wrapper">
   {% for post in site.projects %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
+-->
