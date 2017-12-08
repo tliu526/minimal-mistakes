@@ -4,6 +4,7 @@ excerpt: "Fall 2015 final project for CSCI 371: Computational Graphics. We
 built a mini-golf game with procedurally generated levels."
 header:
   teaser: /assets/images/infiniputt.jpg
+date: 2014-12-01
 ---
 
 ![A procedurally generated hole](/assets/images/infiniputt.jpg)
